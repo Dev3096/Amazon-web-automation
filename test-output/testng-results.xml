@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-08T09:51:05 GMT-05:00" name="Default suite" finished-at="2023-06-08T09:55:34 GMT-05:00" duration-ms="269489">
+    <groups>
+      <group name="searchItem">
+        <method signature="enterSearchItem.amazonLogo()[pri:0, instance:Automation.Amazon.enterSearchItem@41a0aa7d]" name="amazonLogo" class="Automation.Amazon.enterSearchItem"/>
+      </group> <!-- searchItem -->
+    </groups>
+    <test started-at="2023-06-08T09:51:05 GMT-05:00" name="Default test" finished-at="2023-06-08T09:55:34 GMT-05:00" duration-ms="269489">
+      <class name="Automation.Amazon.enterSearchItem">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Automation.Amazon.enterSearchItem@41a0aa7d]" started-at="2023-06-08T09:51:05 GMT-05:00" name="launchApp" finished-at="2023-06-08T09:51:13 GMT-05:00" duration-ms="8682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="amazonLogo()[pri:0, instance:Automation.Amazon.enterSearchItem@41a0aa7d]" started-at="2023-06-08T09:51:13 GMT-05:00" name="amazonLogo" finished-at="2023-06-08T09:55:34 GMT-05:00" duration-ms="260751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLogo -->
+      </class> <!-- Automation.Amazon.enterSearchItem -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
